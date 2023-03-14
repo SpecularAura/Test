@@ -62,15 +62,3 @@ class UIElement:
         self.text_surface = self.original_surface.copy()
         self.alpha_surface.fill((255, 255, 255, self.alpha))
         self.text_surface.blit(self.alpha_surface, (0, 0), special_flags=pygame.BLEND_RGBA_MULT)
-
-
-
-
-
-
-
-
-
-
-
-
